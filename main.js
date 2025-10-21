@@ -8,7 +8,7 @@ const api = express();
 api.use(cors());
 api.use(bodyParser.json());
 
-const SECRET_KEY = 'your_secret_key';
+const SECRET_KEY = '3d335e76c29e45669e7930a5cc694fa8';
 
 const users = [
   { id: 1, username: 'admin', password: 'admin123' },
